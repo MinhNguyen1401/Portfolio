@@ -1,0 +1,44 @@
+<!doctype html>
+	<html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <title>About Me</title>
+	  </head>
+	  <style type="text/css">
+		body {
+			background-color: yellow;
+			transition: background-color 1s;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		var colors = ["yellow", "orange", "red", "green", "blue", "indigo", "violet", "white"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000);
+	</script>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="aboutme.html">About Me</a>
+    <h1 style="text-align:center;">Some facts about me!</h1>
+    <p align="center">
+    <font size="5">Hello, I'm Minh Nguyen. I like cat, stay in my room, read books and play video games. </font><BR>
+    <img src="Lightsabercat.gif" height="350">
+    <font size="3">Light saber go brr...</font><BR>
+    <img src="bookcoffee.jpg" height="350">
+    <img src="genshinimpact.jpg" height="350"> 
+    <p align="center">     
+    <font size="4">*insert not cult music*</font><BR>
+<audio controls>
+    <source src="[COVER] Nyans not hot!.mp3" type="audio/mpeg">
+</audio>
+	  </body>
+	</html>
